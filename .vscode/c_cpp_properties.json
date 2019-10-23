@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/src",
+                "/home/user/.arduino15/**",
+                "/home/user/Arduino/libraries/**",
+                "/home/user/.arduino15/packages/arduino/hardware/megaavr/1.8.3/**",
+                "/home/user/.arduino15/packages/arduino/tools/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/src",
+                    "/home/user/.arduino15/**",
+                    "/home/user/Arduino/libraries/**"
+                ]
+            },
+            "forcedInclude": [
+                "/home/user/.arduino15/packages/arduino/hardware/megaavr/1.8.3/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
